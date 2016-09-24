@@ -24,7 +24,7 @@ void insert_tail(int xdata)
 		tail->next = Node;
 		tail = tail->next;
 		tail->next = head;
-	}
+	} 
 }
 
 // remove 
